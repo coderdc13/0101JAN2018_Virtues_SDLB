@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p> Select among the Virtues to SLAY DEMON LARD BEETUS...</p>
+        <select id="mySelect" onchange="myFunction()">
+        <option value="Patience">Patience
+        <option value="Forgiveness">Forgiveness
+        <option value="Restraint">Restraint
+        <option value="Charity">Charity
+        </select>
+        <p> When you find a new Virtue, the function is triggered...</p>
+        <p id="dmo"></p>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("mySelect").value;
+            document.getElementById("dmo").innerHTML = "You selected: " + x;
+        }
+        </script>
+    </body>
+</html>
